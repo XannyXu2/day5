@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Information in the head is hidden but still applied to the page, the head can help with contrast by setting the overall style of the page-->
+        <title>
+            Animal Rescue Services
+        </title>
+        <!--This is the title for the page, this can help with repetition by keeping every page the same name-->
+        <style>
+            body {
+                font-family: calibri;
+                margin: 0;
+                background-color: #c7ddb9;
+                color: #ffffff
+            }
+            cite {
+                color: #000000;
+            }
+            button:hover {
+                cursor: pointer;
+            }
+        </style>
+        <!--Information in the above tag is applied to the body of the page-->
+    </head>
+    <header>
+        <!--The header helps keep alignment-->
+        <table style="width: 100%; border-bottom: 10px solid #000000; background-color: #70ad47;">
+            <!--Tables help with every part of CRAP, especially proximity by keeping everything where it seems right-->
+            <tr>
+                <th>
+                    <a href="index.html" style="float: left; border: 10px solid #365f1a;">
+                        <img src="ARS_logo.png" style="width: 400px; height: 400px;">
+                    </a>
+                </th>
+                <th>
+                    <h1 style="font-size: 75px; font-weight: normal; color: #ffffff">
+                        Animal Rescue Services Home
+                    </h1>
+                </th>
+            </tr>
+        </table>        
+    </header>
+    <body>
+        <!--I am using the body to hold my information and links, the body helps keep repetition by using the same style the whole time, unless something needs to be different-->
+        <table style="width: 100%;">
+            <tr>
+                <th>
+                    <button onclick="location='rehome_dog.html'" style="margin: 15%; border: 10px solid #365f1a; background-image: url(dog_1.png); background-repeat: no-repeat; background-size: cover; width: 500px; height: 500px; color: #000000; font-weight: bolder; font-size: 40px;">
+                        <p style="background-color: #ffffff67;">
+                             Click Here to<br>Re-Home a Dog
+                        </p>
+                    </button>
+                    <cite>
+                        Twitter
+                    </cite>
+                    <!--I have used buttons to keep contrast nice by adding images that are clickable-->
+                </th>
+                <th>
+                    <button onclick="location='rehome_cat.html'" style="margin: 15%; border: 10px solid #365f1a; background-image: url(cat_1.png); background-repeat: no-repeat; background-size: cover; width: 500px; height: 500px; color: #000000; font-weight: bolder; font-size: 40px;">
+                        <p style="background-color: #ffffff67;">
+                            Click Here to<br>Re-Home a Cat
+                        </p>
+                    </button>
+                    <cite>
+                        Pics
+                    </cite>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <button onclick="location='something_different.html'" style="margin: 15%; border: 10px solid #365f1a; background-image: url(bird_1.png); background-repeat: no-repeat; background-size: cover; width: 500px; height: 500px; color: #000000; font-weight: bolder; font-size: 40px;">
+                        <p style="background-color: #ffffff67;">
+                            Click Here for Something Different
+                        </p>
+                    </button>
+                    <cite>
+                        Twitter
+                    </cite>
+                </th>
+                <th>
+                    <button onclick="location='join_us.html'" style="margin: 15%; border: 10px solid #365f1a; background-image: url(ARS_logo.png); background-repeat: no-repeat; background-size: cover; width: 500px; height: 500px; color: #000000; font-weight: bolder; font-size: 40px;">
+                        <p style="background-color: #ffffff67;">
+                            Click Here to Join Us
+                        </p>
+                    </button>
+                </th>
+            </tr>
+        </table>
+    </body>
+    <footer>
+        <!--The footer is here to keep contrast and repetition by being similar to the header and making the top and bottom of the page the same-->
+        <table style="width: 100%; border-top: 10px solid #000000; background-color: #70ad47;">
+            <tr>
+                <th>
+                    <img src="XB_logo.png" style="width: 200px; height: 200px; float: left;">
+                </th>
+                <th>
+                    <i>
+                        Page Developed by Xander Bezanson
+                    </i>
+                </th>
+            </tr>
+        </table>
+    </footer>
+</html>
